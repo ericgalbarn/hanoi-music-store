@@ -605,7 +605,7 @@ footer{
   clip-path: none;
 }
 .productImg{
-  padding-top: 150px;
+  padding-top: 90px;
   width: 85%;
   padding-left: 40px;
 }
@@ -616,6 +616,7 @@ footer{
   align-items: left;
   position: absolute;
   left: 10%;
+  top: 11%;
 }
 .productTitle{
   padding-top: 150px;
