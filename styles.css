@@ -559,16 +559,28 @@ footer{
   display: none;
 }
 .sliderPrice{
-  top: 74%;
+  top: 74.3%;
   left: 5%;
-  border: none;
+  border: 1px solid black;
+  margin-left: -20px;
+  padding-right: 100vw;
+  padding-left: 30px;
+  background-color: #212121;
+  font-weight: 100;
+}
+  .sliderPrice:hover{
+  color: black;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.8;
 }
 .buyButton{
-  top: 84.7%;
+  top: 85%;
   right:0;
   width: 50%;
   height: 15%;
   background: #212121;
+  font-family: 'Libre Baskerville', serif;
   color: white;
   cursor: pointer;
 }
