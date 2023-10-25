@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel= "stylesheet" href="styles.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <title>Hanoi Music Store </title>
+</head>
+<body>
+  <!-- Building navbar -->
+  <nav id="nav">
+ <!-- Include logo, search bar and some text -->    
+    <div class="navTop">
+      <div class="navItem">
+        <img src="./img/logo.png" alt="logo" class="logo">
+        </div>
+        <div class="navItem">
+          <div class="search">
+            <input type="text" placeholder="Search..." class="searchInput">
+            <img src="./img/search.png" width="30px" height="30px" alt="searchIcon" class="searchIcon">
+          </div>
+        </div>
+        <div class="navItem">
+          <span class="limitedOffer">Limited Offer!</span>
+        </div>
+      </div>   
+ <!-- Products Listing on Navbar -->   
+    <div class="navBottom">
+      <h3 class="menuItem">Guitars</h3>
+      <h3 class="menuItem">Keyboards</h3>
+      <h3 class="menuItem">Percussions</h3>
+      <h3 class="menuItem">Accessories</h3>
+    </div>
+  </nav>
+  <div class="slider">
+    <!-- Wrap all the slider items into a repos -->
+    <div class="sliderWrapper">
+      <div class="sliderItem">
+        <img height="390px" src="./img/guitar-music-city-cairns-6.png" alt="Guitars" class="sliderImg">
+        <div class="slideBg"></div>
+        <h1 class="sliderTitle">Fender American  <br> Vintage '52 Telecaster <br> Butterscotch Blonde</h1>
+        <h2 class="sliderPrice">$1500</h2>
+        <a href="#product-design">
+        <button class="buyButton">Buy Now</button>
+      </a>
+      </div>
+        <div class="sliderItem">
+          <img height="390px" src="./img/keyboard.png" alt="Keyboards"  class="sliderImg">
+          <div class="slideBg"></div>
+          <h1 class="sliderTitle">Akai Professional <br> MPK Mini <br> MKII White</h1>
+          <h2 class="sliderPrice">$200</h2>
+        <a href="#product-design">
+          <button class="buyButton">Buy Now</button>
+          </a>
+        </div>
+          <div class="sliderItem">
+            <img height="420px" src="./img/percussion.png" alt="Percussions" class="sliderImg">
+            <div class="slideBg"></div>
+            <h1 class="sliderTitle">Organic Drum</h1>
+            <h2 class="sliderPrice">$2000</h2>
+            <a href="#product-design">
+            <button class="buyButton">Buy Now</button>
+            </a>
+            </div>
+            <div class="sliderItem">
+              <img height="43%" src="./img/accessories.png" alt="Accessories" class="sliderImg">
+              <div class="slideBg"></div>
+              <h1 class="sliderTitle">BOSS Guitar <br> Pedalboard </h1>
+              <h2 class="sliderPrice">$500</h2>
+              <a href="#product-design">
+              <button class="buyButton">Buy Now</button>
+              </a>
+              </div>
+      </div>
+    </div>
+    <!-- Features -->
+    <div class="features">
+      <div class="feature">
+        <img src="/img/freeship.png" alt="" class="featureIcon">
+        <span class="featureTitle">FREE SHIPPING</span>
+        <span class="featureDes">Free worldwide shipping all orders.</span>
+      </div>
+      <div class="feature">
+        <img src="/img/return.png" alt="" class="featureIcon">
+        <span class="featureTitle">30 DAYS RETURN</span>
+        <span class="featureDes">No question return and easy refund in 14 days.</span>
+      </div>
+      <div class="feature">
+        <img src="/img/giftcard.png" alt="" class="featureIcon">
+        <span class="featureTitle">GIFT CARDS</span>
+        <span class="featureDes">Buy gift cards and use coupon codes easily.</span>
+      </div>
+      <div class="feature">
+        <img src="/img/plane.png" alt="" class="featureIcon">
+        <span class="featureTitle">CONTACT US</span>
+        <span class="featureDes">Keep in touch via email and support system.</span>
+      </div>
+    </div>
+  </div>
+  <!-- Product design -->
+  <div id="product-design" class="product">
+  <img src="./img/guitar-music-city-cairns-6.png" alt="" class="productImg">  
+  <div class="productDetails">
+    <h1 class="productTitle">Fender American
+      Vintage '52 <br> Telecaster
+      Butterscotch Blonde</h1>
+      <p class="productCondition">In Stock</p>
+    <h2 class="productPrice">$1500</h2>
+    <p class="productDes">The quintessential electric guitar, recreated with vintage specs and modern playability. The Fender American Vintage '52 Telecaster in Butterscotch Blonde is a classic stunner with a timeless sound.</p>
+</div>
+<button id="product" class="productButton">Purchase Now</button>
+<div class="payment">
+  <h1 class="payTitle">Personal Information</h1>
+  <label>Name and surname</label>
+  <input type="text" placeholder="Harley Cassius" class="payInput">
+  <label>Phone Number</label>
+  <input type="text" placeholder="+12 3456 789" class="payInput">
+<label>Address</label>
+<input type="text" placeholder="St James' Park, Newcastle" class="payInput">
+<h1 class="payTitle">Card Information</h1>
+<div class="cardIcons">
+  <img src="./img/visa.png" width="40px" alt="" class="cardIcon">
+  <img src="./img/mastercard.png" width="40px" alt="" class="cardIcon">
+</div>
+<input type="password" placeholder="Card Number" class="payInput">
+<div class="cardInfo">
+  <input type="text" placeholder="MM" class="payInput sm">
+  <input placeholder="YYYY" type="text"  class="payInput sm">
+ <input type="text" placeholder="CVV" class="payInput sm">
+</div>
+<button class="payButton">Checkout!</button>
+<span class="close">X</span>
+</div>
+</div>
+<div class="gallery">
+  <div class="sub_gallery">
+    <img src="./img/guitar_commercial.jpeg" alt="" class="guitar">
+  </div>
+  <div class="sub_gallery"></div>
+      <img src="./img/mail_background.jpeg" alt="" class="background">
+  </div>
+  <div class="mail_details">
+    <h3 class="mail_details_heading">Get the Best of Hanoi Music Store in Your Inbox
+    </h3>
+    <div class="mail_submit">
+      <input type="email" placeholder="Your Email">
+      <button type="submit" class="subscribe">Subscribe</button>
+    </div>
+    <p class="mail_details_des">By clicking Subscribe, I agree to receive exclusive offers & promotions, news & reviews, and personalized tips for buying and selling on Hanoi Music Store.</p>
+  </div>
+</div>
+<footer>
+  <div class="footerLeft">
+    <div class="footerMenu">
+      <h1 class="footerTitle">About Us</h1>
+      <ul class="footer-menuList">
+        <li class="footer-listItems">Company</li>
+        <li class="footer-listItems">Contact</li>
+        <li class="footer-listItems">Careers</li>
+        <li class="footer-listItems">Affiliates</li>
+        <li class="footer-listItems">Stores</li>
+      </ul>
+    </div>
+    <div class="footerMenu">
+      <h1 class="footerTitle">Useful Links</h1>
+      <ul class="footer-menuList">
+        <li class="footer-listItems">Support</li>
+        <li class="footer-listItems">Refund</li>
+        <li class="footer-listItems">FAQ</li>
+        <li class="footer-listItems">Feedback</li>
+        <li class="footer-listItems">Stories</li>
+      </ul>
+    </div>
+    <div class="footerMenu">
+      <h1 class="footerTitle">Product</h1>
+      <ul class="footer-menuList">
+        <li class="footer-listItems">Fender American Vintage '52 Telecaster</li>
+        <li class="footer-listItems">Akai Professional MPK</li>
+        <li class="footer-listItems">Organic Drum</li>
+        <li class="footer-listItems">BOSS Guitar Pedalboard</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footerRight">
+    <div class="footerRightMenu">
+      <h1 class="footerTitle">Subscribe to our newsletter</h1>
+      <div class="footerMail">
+        <input type="text" placeholder="your@email.com" class="footerInput">
+        <button class="footerBtn">Join!</button>
+      </div>
+    </div>
+    <div class="footerRightMenu">
+      <h1 class="footerTitle">Follow Us!</h1>
+      <div class="footerIcons">
+        <img src="img/youtube_icon.png" alt="" class="footerIcon">
+        <img src="img/facebook_icon.png" alt="" class="footerIcon">
+        <img src="img/twitter_icon.png" alt="" class="footerIcon">
+        <img src="img/instagram_icon.png" alt="" class="footerIcon">
+      </div>
+    </div>
+    <div class="footerRightMenu">
+      <span class="copyright">@Eric Galbarn(Nguyen Minh Duc). All rights reserved. 2023</span>
+    </div>
+  </div>
+</footer>
+  <script src="./app.js"></script>
+</body>
+</html>
